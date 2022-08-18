@@ -123,7 +123,7 @@ lr = 0.0002
 beta1 = 0.5
 
 # Number of GPUs available. Use 0 for CPU mode.
-ngpu = 1
+ngpu = 0
 
 # We can use an image folder dataset the way we have it setup.
 # Create the dataset
@@ -211,7 +211,7 @@ src1 = pca_.pca
 # src2 = torch.Tensor(src2)
 
 import sys
-sys.exit()
+#sys.exit()
 #%%
 
 # Handle multi-gpu if desired

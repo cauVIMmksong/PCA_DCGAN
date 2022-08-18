@@ -92,7 +92,7 @@ torch.manual_seed(manualSeed)
 dataroot = "LAG_dataset"
 
 # Number of workers for dataloader
-workers = 2
+workers = 0
 
 # Batch size during training
 batch_size = 128
